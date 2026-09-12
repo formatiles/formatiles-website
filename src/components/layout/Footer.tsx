@@ -147,8 +147,9 @@ export default function Footer() {
               </div>
               <div style={{ display: 'flex', alignItems: 'flex-start', gap: '0.5rem' }}>
                 <Phone size={16} color="var(--accent-gold)" style={{ flexShrink: 0, marginTop: '3px' }} />
-                <span>+62 812-3456-7890 (WhatsApp Direct)</span>
+                <span>+{waNumber.substring(0,2)} {waNumber.substring(2,5)}-{waNumber.substring(5,9)}-{waNumber.substring(9)} (WhatsApp Direct)</span>
               </div>
+
               <div style={{ display: 'flex', alignItems: 'flex-start', gap: '0.5rem' }}>
                 <MapPin size={16} color="var(--accent-gold)" style={{ flexShrink: 0, marginTop: '3px' }} />
                 <span>Architectural Material District, Indonesia</span>
