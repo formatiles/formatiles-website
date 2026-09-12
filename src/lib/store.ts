@@ -4,7 +4,7 @@ import { Product, Inquiry, InquiryItem, CalculationInput, CalculationOutput } fr
 import { INITIAL_PRODUCTS, CATEGORIES_DATA, BRANDS_DATA } from './data/initialProducts';
 import { supabase, isSupabaseConfigured } from './supabase';
 
-const PRODUCTS_STORAGE_KEY = 'formatiles_products_v2';
+const PRODUCTS_STORAGE_KEY = 'formatiles_products_v3';
 const INQUIRIES_STORAGE_KEY = 'formatiles_inquiries_v1';
 const CART_STORAGE_KEY = 'formatiles_inquiry_cart_v1';
 const ADMIN_AUTH_KEY = 'formatiles_admin_auth_v1';

@@ -6,7 +6,7 @@ export const CATEGORIES_DATA: CategoryInfo[] = [
     name: 'Granite & Porcelain Slabs',
     tagline: 'Swiss-heritage homogeneous porcelain and grand format sintered stone',
     description: 'Engineered large-format glazed porcelain and homogeneous granite slabs from Niro Granite featuring bookmatch marble veining, Slip Stop anti-slip technology, and diamond-polished finishes for luxury spaces.',
-    image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80',
+    image: '/images/products/niro-granite-conti-flow-60x120-room.jpg',
     commonSizes: ['60x120', '80x80', '60x60', '30x60', '15x90'],
     benefits: ['Ultra-low water absorption (<0.05%)', 'Patented Slip Stop technology', 'Continuous veining bookmatch options']
   },
@@ -15,7 +15,7 @@ export const CATEGORIES_DATA: CategoryInfo[] = [
     name: 'Ceramic & Gres Floor Tiles',
     tagline: 'Single-fired Gres Technology for enduring architectural flooring',
     description: 'Premier floor ceramics and high-strength single-fired Gres tiles from Roman Ceramics. High flexural strength, rich stone and wood textures, designed for residential, commercial, and wet areas.',
-    image: 'https://images.unsplash.com/photo-1615873968403-89e068629265?auto=format&fit=crop&w=1200&q=80',
+    image: '/images/products/roman-ceramics-carrara-50x50-room.jpg',
     commonSizes: ['50x50', '40x40', '30x30', '20x20'],
     benefits: ['Single-fired Gres high structural density', 'Resistant to stains & chemical agents', 'Anti-slip R10/R11 exterior surfaces']
   }
@@ -55,8 +55,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     startingPriceNumeric: 275000,
     isFeatured: true,
     images: [
-      'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1200&q=80'
+      '/images/products/niro-granite-conti-flow-60x120-room.jpg',
+      '/images/products/niro-granite-conti-flow-60x120-tile.jpg',
+      '/images/products/niro-granite-conti-flow-60x120-catalog.jpg'
     ],
     specifications: {
       'Catalog Series': 'Conti-Flow (GLZ01 Statuario Flow)',
@@ -84,8 +85,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     startingPriceNumeric: 295000,
     isFeatured: true,
     images: [
-      'https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1507089947368-19c1da9775ae?auto=format&fit=crop&w=1200&q=80'
+      '/images/products/niro-granite-continueza-80x80-room.jpg',
+      '/images/products/niro-granite-continueza-80x80-tile.jpg',
+      '/images/products/niro-granite-continueza-80x80-catalog.jpg'
     ],
     specifications: {
       'Catalog Series': 'Continueza (GCN01)',
@@ -113,8 +115,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     startingPriceNumeric: 260000,
     isFeatured: true,
     images: [
-      'https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=1200&q=80'
+      '/images/products/niro-granite-marmogio-60x120-room.jpg',
+      '/images/products/niro-granite-marmogio-60x120-tile.jpg',
+      '/images/products/niro-granite-marmogio-60x120-catalog.jpg'
     ],
     specifications: {
       'Catalog Series': 'Marmogio (GIO02 Bianco / GIO03 Grigio)',
@@ -141,7 +144,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     startingPriceNumeric: 280000,
     isFeatured: false,
     images: [
-      'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=80'
+      '/images/products/niro-granite-havana-80x80-room.jpg',
+      '/images/products/niro-granite-havana-80x80-tile.jpg',
+      '/images/products/niro-granite-havana-80x80-catalog.jpg'
     ],
     specifications: {
       'Catalog Series': 'Havana (GHV01)',
@@ -168,8 +173,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     startingPriceNumeric: 265000,
     isFeatured: true,
     images: [
-      'https://images.unsplash.com/photo-1598928506311-c55ded91a20c?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1615873968403-89e068629265?auto=format&fit=crop&w=1200&q=80'
+      '/images/products/niro-granite-serena-2025-60x120-room.jpg',
+      '/images/products/niro-granite-serena-2025-60x120-tile.jpg',
+      '/images/products/niro-granite-serena-2025-60x120-catalog.jpg'
     ],
     specifications: {
       'Catalog Series': 'Serena (New 2025)',
@@ -196,7 +202,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     startingPriceNumeric: 285000,
     isFeatured: false,
     images: [
-      'https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1200&q=80'
+      '/images/products/niro-granite-unique-travertine-60x120-room.jpg',
+      '/images/products/niro-granite-unique-travertine-60x120-tile.jpg',
+      '/images/products/niro-granite-unique-travertine-60x120-catalog.jpg'
     ],
     specifications: {
       'Catalog Series': 'Unique Travertine (GTX01 Romano / GTX07 Silver)',
@@ -222,7 +230,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     startingPriceNumeric: 245000,
     isFeatured: false,
     images: [
-      'https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=1200&q=80'
+      '/images/products/niro-granite-cimento-60x120-room.jpg',
+      '/images/products/niro-granite-cimento-60x120-tile.jpg',
+      '/images/products/niro-granite-cimento-60x120-catalog.jpg'
     ],
     specifications: {
       'Catalog Series': 'Cimento (GCM01 / GCM02)',
@@ -249,7 +259,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     startingPriceNumeric: 225000,
     isFeatured: true,
     images: [
-      'https://images.unsplash.com/photo-1615873968403-89e068629265?auto=format&fit=crop&w=1200&q=80'
+      '/images/products/niro-granite-terrazzo-60x60-room.jpg',
+      '/images/products/niro-granite-terrazzo-60x60-tile.jpg',
+      '/images/products/niro-granite-terrazzo-60x60-catalog.jpg'
     ],
     specifications: {
       'Catalog Series': 'Terrazzo (GTR01 Bianco / GTR02 Grigio)',
@@ -276,7 +288,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     startingPriceNumeric: 220000,
     isFeatured: false,
     images: [
-      'https://images.unsplash.com/photo-1581858726788-75bc0f6a952d?auto=format&fit=crop&w=1200&q=80'
+      '/images/products/niro-granite-finewood-15x90-room.jpg',
+      '/images/products/niro-granite-finewood-15x90-tile.jpg',
+      '/images/products/niro-granite-finewood-15x90-catalog.jpg'
     ],
     specifications: {
       'Catalog Series': 'Finewood (GFW01 / GFW02)',
@@ -303,7 +317,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     startingPriceNumeric: 240000,
     isFeatured: false,
     images: [
-      'https://images.unsplash.com/photo-1598928506311-c55ded91a20c?auto=format&fit=crop&w=1200&q=80'
+      '/images/products/niro-granite-nuswapada-60x60-room.jpg',
+      '/images/products/niro-granite-nuswapada-60x60-tile.jpg',
+      '/images/products/niro-granite-nuswapada-60x60-catalog.jpg'
     ],
     specifications: {
       'Catalog Series': 'Thematic Nuswapada (GNP01 / GNP05 Kawung Mlinjon)',
@@ -329,7 +345,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     startingPriceNumeric: 235000,
     isFeatured: false,
     images: [
-      'https://images.unsplash.com/photo-1507089947368-19c1da9775ae?auto=format&fit=crop&w=1200&q=80'
+      '/images/products/niro-granite-polar-black-60x60-room.jpg',
+      '/images/products/niro-granite-polar-black-60x60-tile.jpg',
+      '/images/products/niro-granite-polar-black-60x60-catalog.jpg'
     ],
     specifications: {
       'Catalog Series': 'Polar Black (GPB01)',
@@ -359,8 +377,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     startingPriceNumeric: 115000,
     isFeatured: true,
     images: [
-      'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1200&q=80'
+      '/images/products/roman-ceramics-carrara-50x50-room.jpg',
+      '/images/products/roman-ceramics-carrara-50x50-tile.jpg',
+      '/images/products/roman-ceramics-carrara-50x50-catalog.jpg'
     ],
     specifications: {
       'Catalog Code': 'G550001 - Gol. A',
@@ -388,7 +407,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     startingPriceNumeric: 110000,
     isFeatured: false,
     images: [
-      'https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1200&q=80'
+      '/images/products/roman-ceramics-colosseum-50x50-room.jpg',
+      '/images/products/roman-ceramics-colosseum-50x50-tile.jpg',
+      '/images/products/roman-ceramics-colosseum-50x50-catalog.jpg'
     ],
     specifications: {
       'Catalog Code': 'G550004 - Gol. A',
@@ -415,7 +436,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     startingPriceNumeric: 115000,
     isFeatured: true,
     images: [
-      'https://images.unsplash.com/photo-1615873968403-89e068629265?auto=format&fit=crop&w=1200&q=80'
+      '/images/products/roman-ceramics-dbudapest-50x50-room.jpg',
+      '/images/products/roman-ceramics-dbudapest-50x50-tile.jpg',
+      '/images/products/roman-ceramics-dbudapest-50x50-catalog.jpg'
     ],
     specifications: {
       'Catalog Code': 'G550012 Grigio / G550013 - Gol. A',
@@ -442,7 +465,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     startingPriceNumeric: 120000,
     isFeatured: false,
     images: [
-      'https://images.unsplash.com/photo-1581858726788-75bc0f6a952d?auto=format&fit=crop&w=1200&q=80'
+      '/images/products/roman-ceramics-dtimber-50x50-room.jpg',
+      '/images/products/roman-ceramics-dtimber-50x50-tile.jpg',
+      '/images/products/roman-ceramics-dtimber-50x50-catalog.jpg'
     ],
     specifications: {
       'Catalog Code': 'G550701 - Gol. B',
@@ -469,7 +494,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     startingPriceNumeric: 95000,
     isFeatured: true,
     images: [
-      'https://images.unsplash.com/photo-1534349762230-e0cadf78f5da?auto=format&fit=crop&w=1200&q=80'
+      '/images/products/roman-ceramics-dcastrum-40x40-room.jpg',
+      '/images/products/roman-ceramics-dcastrum-40x40-tile.jpg',
+      '/images/products/roman-ceramics-dcastrum-40x40-catalog.jpg'
     ],
     specifications: {
       'Catalog Code': 'G440101 - Gol. B',
@@ -496,7 +523,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     startingPriceNumeric: 98000,
     isFeatured: false,
     images: [
-      'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80'
+      '/images/products/roman-ceramics-dlaterina-40x40-room.jpg',
+      '/images/products/roman-ceramics-dlaterina-40x40-tile.jpg',
+      '/images/products/roman-ceramics-dlaterina-40x40-catalog.jpg'
     ],
     specifications: {
       'Catalog Code': 'G449556 Bone / G449557 Beige - Gol. B',
@@ -522,7 +551,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     startingPriceNumeric: 85000,
     isFeatured: false,
     images: [
-      'https://images.unsplash.com/photo-1615873968403-89e068629265?auto=format&fit=crop&w=1200&q=80'
+      '/images/products/roman-ceramics-dbolonia-30x30-room.jpg',
+      '/images/products/roman-ceramics-dbolonia-30x30-tile.jpg',
+      '/images/products/roman-ceramics-dbolonia-30x30-catalog.jpg'
     ],
     specifications: {
       'Catalog Code': 'G337504 Bone / G337505 Beige / G337507 Grey - Gol. B',
@@ -548,7 +579,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     startingPriceNumeric: 88000,
     isFeatured: true,
     images: [
-      'https://images.unsplash.com/photo-1598928506311-c55ded91a20c?auto=format&fit=crop&w=1200&q=80'
+      '/images/products/roman-ceramics-dbatur-30x30-room.jpg',
+      '/images/products/roman-ceramics-dbatur-30x30-tile.jpg',
+      '/images/products/roman-ceramics-dbatur-30x30-catalog.jpg'
     ],
     specifications: {
       'Catalog Code': 'G330510 Perla / G330511 Grigio / G330513 Charcoal - Gol. B',
@@ -575,7 +608,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     startingPriceNumeric: 135000,
     isFeatured: true,
     images: [
-      'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=1200&q=80'
+      '/images/products/roman-ceramics-oceanus-20x20-room.jpg',
+      '/images/products/roman-ceramics-oceanus-20x20-tile.jpg',
+      '/images/products/roman-ceramics-oceanus-20x20-catalog.jpg'
     ],
     specifications: {
       'Catalog Code': 'G229001 Marine / G229002 Sky / G229000 Blue - Gol. D',
@@ -602,7 +637,9 @@ export const INITIAL_PRODUCTS: Product[] = [
     startingPriceNumeric: 78000,
     isFeatured: false,
     images: [
-      'https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=1200&q=80'
+      '/images/products/roman-ceramics-venere-20x20-room.jpg',
+      '/images/products/roman-ceramics-venere-20x20-tile.jpg',
+      '/images/products/roman-ceramics-venere-20x20-catalog.jpg'
     ],
     specifications: {
       'Catalog Code': 'G227058 Cream / G220501 Dust / G227062 Charcoal - Gol. A',
