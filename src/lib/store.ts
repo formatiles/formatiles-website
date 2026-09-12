@@ -4,7 +4,7 @@ import { Product, Inquiry, InquiryItem, CalculationInput, CalculationOutput } fr
 import { INITIAL_PRODUCTS, CATEGORIES_DATA, BRANDS_DATA } from './data/initialProducts';
 import { supabase, isSupabaseConfigured } from './supabase';
 
-const PRODUCTS_STORAGE_KEY = 'formatiles_products_v1';
+const PRODUCTS_STORAGE_KEY = 'formatiles_products_v2';
 const INQUIRIES_STORAGE_KEY = 'formatiles_inquiries_v1';
 const CART_STORAGE_KEY = 'formatiles_inquiry_cart_v1';
 const ADMIN_AUTH_KEY = 'formatiles_admin_auth_v1';
@@ -183,7 +183,7 @@ export async function bulkImportProducts(productsToImport: Array<Partial<Product
       slug,
       name: raw.name,
       category: ['ceramic', 'granite', 'wall-panel', 'spc'].includes(cat) ? cat : 'ceramic',
-      brand: raw.brand || 'Forma Luxe',
+      brand: raw.brand || 'Niro Granite',
       size: raw.size || '60x60',
       surfaceFinish: raw.surfaceFinish || 'Matte',
       thicknessMm: Number(raw.thicknessMm) || 9,

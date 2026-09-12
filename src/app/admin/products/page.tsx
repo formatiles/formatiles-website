@@ -30,14 +30,14 @@ function ProductsManagementContent() {
   const [formData, setFormData] = useState({
     name: '',
     category: 'granite' as ProductCategory,
-    brand: 'Forma Luxe',
+    brand: 'Niro Granite',
     size: '60x120',
     surfaceFinish: 'Polished',
-    thicknessMm: 9.5,
+    thicknessMm: 11.3,
     pcsPerBox: 2,
     coveragePerBoxM2: 1.44,
-    priceRange: 'Rp 240.000 - 300.000 / m²',
-    startingPriceNumeric: 240000,
+    priceRange: 'Rp 260.000 - 320.000 / m²',
+    startingPriceNumeric: 260000,
     isFeatured: false,
     imageUrl: '',
     description: ''
@@ -59,14 +59,14 @@ function ProductsManagementContent() {
     setFormData({
       name: '',
       category: 'granite',
-      brand: 'Forma Luxe',
+      brand: 'Niro Granite',
       size: '60x120',
       surfaceFinish: 'Polished Mirror Gloss',
-      thicknessMm: 9.5,
+      thicknessMm: 11.3,
       pcsPerBox: 2,
       coveragePerBoxM2: 1.44,
-      priceRange: 'Rp 240.000 - 310.000 / m²',
-      startingPriceNumeric: 240000,
+      priceRange: 'Rp 260.000 - 320.000 / m²',
+      startingPriceNumeric: 260000,
       isFeatured: false,
       imageUrl: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80',
       description: ''
@@ -385,7 +385,7 @@ function ProductsManagementContent() {
                   <input
                     type="text"
                     required
-                    placeholder="e.g. Forma Luxe"
+                    placeholder="e.g. Niro Granite or Roman Ceramics"
                     value={formData.brand}
                     onChange={(e) => setFormData({ ...formData, brand: e.target.value })}
                     className="input-field"

@@ -123,11 +123,9 @@ function CatalogContent() {
   };
 
   const categories = [
-    { id: 'all', label: 'All Surfaces' },
-    { id: 'granite', label: 'Granite & Slabs' },
-    { id: 'ceramic', label: 'Ceramic & Porcelain' },
-    { id: 'spc', label: 'SPC Flooring' },
-    { id: 'wall-panel', label: 'Wall Panels & Slats' },
+    { id: 'all', label: 'All Collections' },
+    { id: 'granite', label: 'Niro Granite (Porcelain Slabs)' },
+    { id: 'ceramic', label: 'Roman Ceramics (Gres Tiles)' },
   ];
 
   return (

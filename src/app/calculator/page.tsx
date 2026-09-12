@@ -50,14 +50,17 @@ function CalculatorContent() {
   const [wallWidthM, setWallWidthM] = useState<number>(4.0);
   const [panelWidthCm, setPanelWidthCm] = useState<number>(16);
 
-  // Tile presets map
+  // Tile presets map with authentic Roman & Niro Granite packaging specifications
   const tilePresets = [
-    { label: '60 x 60 cm (Ceramic/Granite)', size: '60x60', coverage: 1.44, pcs: 4 },
-    { label: '60 x 120 cm (Granite Slab)', size: '60x120', coverage: 1.44, pcs: 2 },
-    { label: '80 x 80 cm (Large Format)', size: '80x80', coverage: 1.92, pcs: 3 },
-    { label: '30 x 60 cm (Subway/Wall)', size: '30x60', coverage: 1.44, pcs: 8 },
-    { label: '18 x 122 cm (SPC Flooring)', size: '18x122', coverage: 2.196, pcs: 10 },
-    { label: '15 x 90 cm (Chevron SPC)', size: '15x90', coverage: 1.62, pcs: 12 },
+    { label: '60 x 120 cm (Niro Granite Slab)', size: '60x120', coverage: 1.44, pcs: 2 },
+    { label: '80 x 80 cm (Niro Large Format)', size: '80x80', coverage: 1.92, pcs: 3 },
+    { label: '60 x 60 cm (Niro Homogeneous Porcelain)', size: '60x60', coverage: 1.44, pcs: 4 },
+    { label: '50 x 50 cm (Roman Gres Floor Tile)', size: '50x50', coverage: 1.00, pcs: 4 },
+    { label: '40 x 40 cm (Roman Floor Tile)', size: '40x40', coverage: 0.96, pcs: 6 },
+    { label: '30 x 30 cm (Roman Gres/Anti-Slip)', size: '30x30', coverage: 0.99, pcs: 11 },
+    { label: '20 x 20 cm (Roman Pool & Floor Tile)', size: '20x20', coverage: 1.00, pcs: 25 },
+    { label: '15 x 90 cm (Niro Wood Porcelain Plank)', size: '15x90', coverage: 1.08, pcs: 8 },
+    { label: '30 x 60 cm (Niro Wall/Step Tile)', size: '30x60', coverage: 1.44, pcs: 8 },
   ];
 
   // Handle tile preset change
