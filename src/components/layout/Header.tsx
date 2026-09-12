@@ -37,8 +37,8 @@ export default function Header() {
     { name: t('navShowroom'), href: '/' },
     { name: t('navCatalog'), href: '/catalog' },
     { name: t('navCalculator'), href: '/calculator' },
-    { name: t('navAdmin'), href: '/admin' },
   ];
+
 
 
   const totalItemsCount = items.length;

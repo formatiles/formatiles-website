@@ -224,6 +224,4 @@ The implementation should be:
 
 The AI agent has freedom to improve the architecture, UI, database structure, and implementation when doing so improves the product while remaining aligned with this specification.
 
-Prioritize working functionality and simplicity over unnecessary features.
-
-db supabase pass: QmKbwqLuRnwm2LkV
+Prioritize working functionality and simplicity over unnecessary features.

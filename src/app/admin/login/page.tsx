@@ -97,10 +97,8 @@ export default function AdminLoginPage() {
                 autoFocus
               />
             </div>
-            <span style={{ display: 'block', fontSize: '0.75rem', color: 'var(--accent-gold-light)', marginTop: '0.4rem' }}>
-              Default Key: <strong>formatiles2026</strong>
-            </span>
           </div>
+
 
           <button
             type="submit"

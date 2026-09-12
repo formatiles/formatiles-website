@@ -127,13 +127,9 @@ export default function Footer() {
                   Acoustic Wall Panel Estimator
                 </Link>
               </li>
-              <li>
-                <Link href="/admin" style={{ color: 'var(--text-muted)', fontSize: '0.85rem', display: 'inline-flex', alignItems: 'center', gap: '0.3rem', marginTop: '0.5rem' }}>
-                  <Shield size={13} /> Admin Portal
-                </Link>
-              </li>
             </ul>
           </div>
+
 
           {/* Showroom & Hours */}
           <div>
@@ -194,10 +190,10 @@ export default function Footer() {
           <div style={{ display: 'flex', gap: '1.5rem' }}>
             <Link href="/catalog" style={{ color: 'var(--text-muted)' }}>Catalog</Link>
             <Link href="/calculator" style={{ color: 'var(--text-muted)' }}>Calculator</Link>
-            <Link href="/admin/login" style={{ color: 'var(--text-muted)' }}>Staff Login</Link>
           </div>
         </div>
       </div>
     </footer>
   );
 }
+
