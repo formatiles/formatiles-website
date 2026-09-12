@@ -77,11 +77,12 @@ create policy "Allow public read products" on public.products for select using (
 -- Public Insert for Inquiries (Lead generation)
 create policy "Allow public insert inquiries" on public.inquiries for insert with check (true);
 
--- Admin Access Policies (Authenticated users or service role)
-create policy "Allow authenticated admin full access categories" on public.categories for all using (auth.role() = 'authenticated');
-create policy "Allow authenticated admin full access brands" on public.brands for all using (auth.role() = 'authenticated');
-create policy "Allow authenticated admin full access products" on public.products for all using (auth.role() = 'authenticated');
-create policy "Allow authenticated admin full access inquiries" on public.inquiries for all using (auth.role() = 'authenticated');
+-- Admin & Public Access Policies for V1
+create policy "Allow public manage products" on public.products for all using (true) with check (true);
+create policy "Allow public manage categories" on public.categories for all using (true) with check (true);
+create policy "Allow public manage brands" on public.brands for all using (true) with check (true);
+create policy "Allow public manage inquiries" on public.inquiries for all using (true) with check (true);
+
 
 -- Storage bucket for product images
 insert into storage.buckets (id, name, public) 
